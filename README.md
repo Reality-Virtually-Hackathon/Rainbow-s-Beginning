@@ -12,3 +12,15 @@ We are also interested in how IOT sensors and smart-city architectures can be le
 Unity 2017.2 BETA 
 
 Unity + Mapbox SDK
+
+# Hardware Requirements
+* Arduino Genuino Uno
+* DHT11 Temperature & Humidity Sensor
+* PN532 RFID/NFC Reader
+* RFID/NFC Stickers
+* 10k Resistor
+* Male/Female Wires
+* Breadboard or Breakout Board
+
+# Circuit Diagram for IOT Integration
+
