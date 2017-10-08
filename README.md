@@ -23,6 +23,6 @@ Unity + Mapbox SDK
 * Breadboard or Breakout Board
 
 # Circuit Diagram for IOT Integration
-![circuitDiagram](/Rainbow-s-Beginning/images/circuitDiagramIOT.png?raw=true "Circuit Diagram")
+![circuitDiagram](https://github.com/Reality-Virtually-Hackathon/Rainbow-s-Beginning/blob/master/images/circuitDiagramIOT.png?raw=true "Circuit Diagram")
 
 
