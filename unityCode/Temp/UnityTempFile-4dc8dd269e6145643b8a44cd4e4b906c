@@ -1,0 +1,766 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityAR/RuntimeEditor/UnityEngine.AR.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll
+-r:Assets/MetaSDK/Meta/CocoLauncher/Flatbuffers/Plugins/FlatBuffers.dll
+-r:Assets/MetaSDK/Plugins/Managed/DestMath.dll
+-r:Assets/MetaSDK/Plugins/Managed/FullSerializer.dll
+-r:Assets/MetaSDK/Plugins/Managed/MetaAnalytics.dll
+-r:Assets/MetaSDK/Plugins/Managed/MetaDevMode-CSharp.dll
+-r:Assets/MetaSDK/Plugins/Managed/Newtonsoft.Json.dll
+-r:Assets/MetaSDK/Plugins/Managed/SimpleJSON.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@0.0.16/UnityEngine.Advertisements.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.17/UnityEngine.Analytics.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.18/UnityEngine.Purchasing.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_0
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/LockPositionToTransform.cs
+Assets/LockRotationToTransform.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/DirectionResource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Directions.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Overview.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Response/DirectionsResponse.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Response/Intersection.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Response/Leg.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Response/Maneuver.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Response/Route.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Response/Step.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Response/Waypoint.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Directions/RoutingProfile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/ForwardGeocodeResource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/Geocoder.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/GeocodeResource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/Response/Feature.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/Response/GeocodeResponse.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/Response/Geometry.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/ReverseGeocodeResource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/CanonicalTileId.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/ClassicRasterTile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/ClassicRetinaRasterTile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/Map.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/MapUtils.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/RasterTile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/RawPngRasterTile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/RetinaRasterTile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/StyleOptimizedVectorTile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/Tile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/TileCover.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/TileResource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/UnwrappedTileId.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Map/VectorTile.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Cache/CachingWebFileSource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Cache/ICache.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Cache/MbTilesCache.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Cache/MemoryCache.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/FileSource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/HTTPRequestNonThreaded.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/HTTPRequestThreaded.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/IAsyncRequest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/IAsyncRequestFactory.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/IFileSource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/IResource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/MbTiles/MbTiles.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/MbTiles/MetaData.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/MbTiles/MetaDataRequired.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/MbTiles/Tiles.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Resource.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Response.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Platform/SQLite/SQLite.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/BearingFilter.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/Compression.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/Constants.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/GeoCoordinate.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/GeoCoordinateBounds.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/IObservable.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/IObserver.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/JsonConverters/BboxToGeoCoordinateBoundsConverter.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/JsonConverters/JsonConverters.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/JsonConverters/LonLatToGeoCoordinateConverter.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/JsonConverters/PolylineToGeoCoordinateListConverter.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/PolylineUtils.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/UnixTimestampUtils.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/Vector2d/Mathd.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/Vector2d/RectD.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Utils/Vector2d/Vector2d.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/ExtensionMethods/Enums.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/ExtensionMethods/VectorTile.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/ExtensionMethods/VectorTileFeature.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/Geometry/clipper.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/Geometry/DecodeGeometry.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/Geometry/Geometry.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/Geometry/Util.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/PbfReader/Constants.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/PbfReader/PbfReader.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/VectorTileReader/VectorTile.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/VectorTileReader/VectorTileFeature.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/VectorTileReader/VectorTileLayer.cs
+Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/VectorTileReader/VectorTileReader.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/BlockType.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/CompressionLevel.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/CompressionMode.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/CompressionTracing.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/CopyEncoder.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/Crc32Helper.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/DeflateInput.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/DeflaterManaged.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/DeflateStream.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/DeflateStreamAsyncResult.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/FastEncoder.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/FastEncoderStatics.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/FastEncoderWindow.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/FileFormats.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/GZipDecoder.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/GZipStream.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/GZipUtils.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/HuffmanTree.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/IDeflater.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/Inflater.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/InflaterState.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/InputBuffer.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/InvalidDataException.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/Match.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/MatchState.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/OutputBuffer.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/OutputWindow.cs
+Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/SR.cs
+Assets/Mapbox/Examples/Globe/Scripts/DragRotate.cs
+Assets/Mapbox/Examples/Globe/Scripts/SpawnOnGlobeExample.cs
+Assets/Mapbox/Examples/MapReload/Scripts/ReloadMap.cs
+Assets/Mapbox/Examples/Playground/Scripts/DirectionsExample.cs
+Assets/Mapbox/Examples/Playground/Scripts/ForwardGeocoderExample.cs
+Assets/Mapbox/Examples/Playground/Scripts/RasterTileExample.cs
+Assets/Mapbox/Examples/Playground/Scripts/ReverseGeocoderExample.cs
+Assets/Mapbox/Examples/Playground/Scripts/VectorTileExample.cs
+Assets/Mapbox/Examples/Scripts/CameraMovement.cs
+Assets/Mapbox/Examples/Scripts/ChangeShadowDistance.cs
+Assets/Mapbox/Examples/Scripts/DynamicZoomCameraMovement.cs
+Assets/Mapbox/Examples/Scripts/FeatureSelectionDetector.cs
+Assets/Mapbox/Examples/Scripts/FeatureUiMarker.cs
+Assets/Mapbox/Examples/Scripts/ForwardGeocodeUserInput.cs
+Assets/Mapbox/Examples/Scripts/HighlightFeature.cs
+Assets/Mapbox/Examples/Scripts/LoadingPanelController.cs
+Assets/Mapbox/Examples/Scripts/MakiHelper.cs
+Assets/Mapbox/Examples/Scripts/ObjectInspectorModifier.cs
+Assets/Mapbox/Examples/Scripts/PoiMarkerHelper.cs
+Assets/Mapbox/Examples/Scripts/PositionWithLocationProvider.cs
+Assets/Mapbox/Examples/Scripts/ReverseGeocodeUserInput.cs
+Assets/Mapbox/Examples/Scripts/RotateWithLocationProvider.cs
+Assets/Mapbox/Examples/Voxels/Scripts/TextureScaler.cs
+Assets/Mapbox/Examples/Voxels/Scripts/VoxelData.cs
+Assets/Mapbox/Examples/Voxels/Scripts/VoxelFetcher.cs
+Assets/Mapbox/Examples/Voxels/Scripts/VoxelTile.cs
+Assets/Mapbox/Unity/Constants.cs
+Assets/Mapbox/Unity/Location/DeviceLocationProvider.cs
+Assets/Mapbox/Unity/Location/EditorLocationProvider.cs
+Assets/Mapbox/Unity/Location/ILocationProvider.cs
+Assets/Mapbox/Unity/Location/LocationProviderFactory.cs
+Assets/Mapbox/Unity/Location/TransformLocationProvider.cs
+Assets/Mapbox/Unity/Map/AbstractMap.cs
+Assets/Mapbox/Unity/Map/AbstractMapVisualizer.cs
+Assets/Mapbox/Unity/Map/AbstractTileProvider.cs
+Assets/Mapbox/Unity/Map/BasicMap.cs
+Assets/Mapbox/Unity/Map/CameraBoundsTileProvider.cs
+Assets/Mapbox/Unity/Map/DynamicZoomMap.cs
+Assets/Mapbox/Unity/Map/DynamicZoomMapVisualizer.cs
+Assets/Mapbox/Unity/Map/DynamicZoomTileProvider.cs
+Assets/Mapbox/Unity/Map/GlobeTileProvider.cs
+Assets/Mapbox/Unity/Map/IMap.cs
+Assets/Mapbox/Unity/Map/InitializeMapWithLocationProvider.cs
+Assets/Mapbox/Unity/Map/ITileProvider.cs
+Assets/Mapbox/Unity/Map/MapAtSpecificLocation.cs
+Assets/Mapbox/Unity/Map/MapVisualizer.cs
+Assets/Mapbox/Unity/Map/RangeAroundTransformTileProvider.cs
+Assets/Mapbox/Unity/Map/RangeTileProvider.cs
+Assets/Mapbox/Unity/MapboxAccess.cs
+Assets/Mapbox/Unity/MeshGeneration/Components/FeatureBehaviour.cs
+Assets/Mapbox/Unity/MeshGeneration/Components/TextureSelector.cs
+Assets/Mapbox/Unity/MeshGeneration/Components/VertexDebugger.cs
+Assets/Mapbox/Unity/MeshGeneration/Components/VertexDebuggerGizmo.cs
+Assets/Mapbox/Unity/MeshGeneration/Data/MeshData.cs
+Assets/Mapbox/Unity/MeshGeneration/Data/UnityTile.cs
+Assets/Mapbox/Unity/MeshGeneration/Data/VectorFeatureUnity.cs
+Assets/Mapbox/Unity/MeshGeneration/Enums/TilePropertyState.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/AbstractTileFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/DirectionsFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/FlatSphereTerrainFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/FlatTerrainFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/LowPolyTerrainFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/MapImageFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/MeshFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/StyleOptimizedVectorTileFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/TerrainFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Factories/VectorTileFactory.cs
+Assets/Mapbox/Unity/MeshGeneration/Filters/FilterBase.cs
+Assets/Mapbox/Unity/MeshGeneration/Filters/HeightFilter.cs
+Assets/Mapbox/Unity/MeshGeneration/Filters/TypeFilter.cs
+Assets/Mapbox/Unity/MeshGeneration/Interfaces/IFeaturePropertySettable.cs
+Assets/Mapbox/Unity/MeshGeneration/Interfaces/LayerVisualizerBase.cs
+Assets/Mapbox/Unity/MeshGeneration/LayerVisualizers/PoiVisualizer.cs
+Assets/Mapbox/Unity/MeshGeneration/LayerVisualizers/VectorLayerVisualizer.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/AddMonoBehavioursModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/AddMonoBehavioursModifierType.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/ColliderModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/LayerModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/PrefabModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/SpawnInsideModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/TextureModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/GameObjectModifiers/TextureMonoBehaviourModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MergedModifierStack.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/ChamferHeightModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/Earcut.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/HeightModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/LineMeshModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/PolygonMeshModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/SmoothLineModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/SnapTerrainModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/SnapTerrainRaycastModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/MeshModifiers/UvModifier.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/ModifierBase.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/ModifierStack.cs
+Assets/Mapbox/Unity/MeshGeneration/Modifiers/ModifierStackBase.cs
+Assets/Mapbox/Unity/Telemetry/ITelemetryLibrary.cs
+Assets/Mapbox/Unity/Telemetry/TelemetryDummy.cs
+Assets/Mapbox/Unity/Telemetry/TelemetryEditor.cs
+Assets/Mapbox/Unity/Telemetry/TelemetryFallback.cs
+Assets/Mapbox/Unity/Telemetry/TelemetryIos.cs
+Assets/Mapbox/Unity/Telemetry/TelemtryAndroid.cs
+Assets/Mapbox/Unity/Utilities/Conversions.cs
+Assets/Mapbox/Unity/Utilities/GeocodeAttribute.cs
+Assets/Mapbox/Unity/Utilities/HTTPRequest.cs
+Assets/Mapbox/Unity/Utilities/NodeEditorElementAttribute.cs
+Assets/Mapbox/Unity/Utilities/OpenUrlOnButtonClick.cs
+Assets/Mapbox/Unity/Utilities/Runnable.cs
+Assets/Mapbox/Unity/Utilities/Singleton.cs
+Assets/Mapbox/Unity/Utilities/SingletonScriptableObject.cs
+Assets/Mapbox/Unity/Utilities/StyleSearchAttribute.cs
+Assets/Mapbox/Unity/Utilities/TelemetryConfigurationButton.cs
+Assets/Mapbox/Unity/Utilities/VectorExtensions.cs
+Assets/MetaSDK/Meta/CocoLauncher/Flatbuffers/Types/frame_hands.cs
+Assets/MetaSDK/Meta/CocoLauncher/Flatbuffers/Types/hand_data.cs
+Assets/MetaSDK/Meta/CocoLauncher/Flatbuffers/Types/header.cs
+Assets/MetaSDK/Meta/CocoLauncher/Flatbuffers/Types/image.cs
+Assets/MetaSDK/Meta/CocoLauncher/Flatbuffers/Types/pose.cs
+Assets/MetaSDK/Meta/CocoLauncher/Flatbuffers/Types/transform.cs
+Assets/MetaSDK/Meta/CocoLauncher/Scripts/KernelCocoLauncherModule.cs
+Assets/MetaSDK/Meta/CocoLauncher/Scripts/MetaCocoInterop.cs
+Assets/MetaSDK/Meta/CocoLauncher/Scripts/MetaCocoInteropExtensions.cs
+Assets/MetaSDK/Meta/CocoLauncher/Scripts/MetaKernelCocoInterop.cs
+Assets/MetaSDK/Meta/Compositor/Scripts/MetaCompositor.cs
+Assets/MetaSDK/Meta/Compositor/Scripts/MetaCompositorInterop.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/AudioEventTrigger.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/BaseMetaButtonEventBroadcaster.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/BaseMetaButtonInteractionObject.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/ButtonBroadcastType.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/IOnMetaButtonEvent.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/MetaButtonEventBroadcaster.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/MetaButtonGameObjectEventBroadcaster.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/MetaButtonGeneralEventBroadcaster.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/MetaButtonIndividualEventBroadcaster.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/MetaButtonUnityEvent.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/ButtonState.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/ButtonType.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/IMetaButton.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/IMetaButtonEventProvider.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Implementation/MetaButtonVolumeController.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Implementation/MetaButtonWebCamStillImageController.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Implementation/SoundEffectTrigger.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/MetaButton.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/MetaButtonEventProvider.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/MetaButtonsController.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Source/EditorMetaButtonEventInterop.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Source/IMetaButtonEventInterop.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Source/MetaButtonEventInterop.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/CanvasCursor.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/CanvasPressIndicator.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/EventCamera.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/EventSystemUtility.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/IEventCamera.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/MetaHandEventData.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/MetaHandGraphicsRaycaster.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/PointCloudInfo.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/RingSegment.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/ScaleEvents.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/ScaleMeshToParentRectTransform.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/ScaleSpriteRendererToTransform.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/UIEventTrigger.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Attributes/ReadonlyAttribute.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/BoundaryChecker.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Datastructres/CenterHandFeature.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Datastructres/Hand.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Datastructres/HandFeature.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Datastructres/PalmState/PalmState.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Datastructres/PalmState/PalmStateCommand.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Datastructres/PalmState/PalmStateMachine.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Datastructres/TopHandFeature.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Events/GameObjectEvent.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Events/GrabEvent.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Events/HandFeatureEvent.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Events/HandTriggerEvent.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/GridBox.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/HandCursor.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/HandTrigger.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/GrabInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/Interaction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/InteractionEvents.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/InteractionOrder.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/InteractionOrderItem.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/InteractionState.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/Interface/IInteractibleObject.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/LocalThreshold.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/MetaInteractionData.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/OrbitRotateInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/SwipeDirections.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/SwipeEvent.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/TurnTableInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/TurnTableSwipeInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/TwoHandGrabInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/TwoHandGrabRotateInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/TwoHandGrabScaleInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/TwoHandGrabSwitchRotationInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/TwoHandInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/TwoHandScaleInteraction.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Utility/HandFeatureType.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Utility/HandFeatureUtil.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Utility/HandUtil.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Utility/InteractionVisualManager.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Utility/MetaCubeStateVisualsManager.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Utility/SetPropertyUtility.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Utility/ToggleMaterialColor.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/Hands/HandData.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/Hands/HandType.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/PointCloud/PointCloudData.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/PointCloud/PointCloudDataType.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/PointCloud/PointCloudInteropData.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/PointCloud/PointCloudInteropMetaData.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/PointCloud/PointCloudMetaData.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/PointCloud/PointXYZ.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/PointCloud/PointXYZConfidence.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/PointCloud/PointXYZRGBA.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/DataStructs/SensorMetaData.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/HandKernelInterop.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/HandsModule.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/HandsProvider.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Helpers/InteractionEngineLogging.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Helpers/PointCloudDataLogging.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/InteractionEngine.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/InteractionEngineFactory.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/Generic/GenericDirectoryPlayback.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/Generic/GenericFilePlayback.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/Generic/IFileParser.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/Generic/ThreadedDirectoryPlayback.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/PointCloud/PCDExtensions.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/PointCloud/PCDParser.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/PointCloud/PCDParserXYZC.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/PointCloud/PlaybackPointCloudSource.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Playback/PointCloud/ThreadedPlaybackPointCloudSource.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Settings/CloudGeneratorOptions.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Settings/DepthDataCleanerOptions.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Settings/HandKernelSettings.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Settings/HandProcessorOptions.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Sources/HandKernelPlayback.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Sources/IHandDataSource.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Sources/IPlaybackSource.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Sources/IPointCloudSource.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Sources/OnNewFrameData.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Sources/PointCloudInterop.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Visualizer/DepthOcclusionHandler.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Visualizer/DepthOcclusionManager.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Visualizer/HandPointCloudFromRealPoints.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Visualizer/IOcclusionGeometry.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Visualizer/NativeTextureHandler.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Visualizer/OcclusionGeometry.cs
+Assets/MetaSDK/Meta/Hands/InteractionEngine/Visualizer/OcclusionManager.cs
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/Helpers/AlignToHeadset.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/Helpers/LerpTowards.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/Helpers/LookAt.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/Helpers/RandomRotation.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/LightDrawing/AppendParticles.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/LightDrawing/ResetParticles.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/LightDrawing/ResetParticlesAnim.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/SLAMInitializationGazePoint.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/SLAMInitializationProcess.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/SLAMParticles.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM/Scripts/SLAMUIManager.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/BaseSlamAnimation.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/BaseSlamGuide.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/BaseSlamUI.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/BaseSlamUIMessages.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/CalibrationStage.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/ObjectRotation.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/SlamAnimation.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/SlamGuide.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/SlamInitializationType.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/SlamMessage.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/SlamUI.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/SlamUIMessages.cs"
+"Assets/MetaSDK/Meta/LocalizationEngine/Calibration UI/SLAM_UI/Scripts/SLAMUIMessageType.cs"
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/ExposePropertyAttribute.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/ILocalizer.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/ISlamLocalizer.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/MetaLocalization.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/MouseLocalizer.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/RdfMatrixToPose.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/SlamFeedback.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/SlamInterop.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/SlamLocalizer.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/DragRotate.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/DragScale.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/DragTranslate.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/IInputWrapper.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/IMetaInputModule.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/InputWrapperRecorder.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/IPlatformMouse.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/KeySet/Chord.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/KeySet/IKeyboardWrapper.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/KeySet/KeySet.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/KeySet/Subchord.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/KeySet/UnityKeyboardWrapper.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/MetaInputModule.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/MetaMouse.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/MetaMouseConfig.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/MetaMouseCursorState.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/MetaMouseMessage.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/MouseAttractor.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/PlatformMouseFactory.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/PlaybackInputWrapper.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/RuntimeGameView.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/UnityInputWrapper.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/WindowsPlatformMouse.cs
+Assets/MetaSDK/Meta/Mouse/Scripts/WindowsUnityWindow.cs
+Assets/MetaSDK/Meta/OpticalEngine/Scripts/PreRenderTexture.cs
+Assets/MetaSDK/Meta/OpticalEngine/Scripts/SetupRenderTextures.cs
+Assets/MetaSDK/Meta/OpticalEngine/Scripts/SetupRenderTexturesStereo.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Configuration/DefaultEnvironmentReset.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Configuration/EnvironmentConfiguration.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Configuration/EnvironmentInitializerFactory.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Configuration/EnvironmentNoProfileInitializer.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Configuration/EnvironmentProfileInitializer.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Configuration/IEnvironmentInitializer.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Configuration/IEnvironmentReset.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Constants/EnvironmentConstants.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/IMetaReconstruction.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/DefaultEnvironmentInitializationFactory.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/IEnvironmentInitialization.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/IEnvironmentInitializationFactory.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/MultiStepEnvironmentInitialization.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/NewDefaultEnvironmentInitialization.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/NoSlamEnvironmentInitialization.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/SelectedEnvironmentInitialization.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/BaseEnvironmentScanController.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/DefaultEnvironmentCleanerStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/DefaultEnvironmentProfileCreatorStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/EnvironmentInitializationStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/EnvironmentNewSlamMapInitializerStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/EnvironmentProfileSaverStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/EnvironmentReconstructionInitializerStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/EnvironmentReconstructionLoaderStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/EnvironmentReconstructionSaverStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/EnvironmentScanController.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Initialization/Steps/EnvironmentSlamSaverStep.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Mesh/IMeshGenerator.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Mesh/IModelFileManipulator.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Mesh/MeshData.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Mesh/MeshGenerator.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Mesh/OBJFileManipulator.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/MetaReconstruction.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/ReconstructionInterop.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/ReconstructionTransition.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/EnvironmentProfile.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/EnvironmentProfileCollection.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/EnvironmentProfileFileIOStream.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/EnvironmentProfileJsonParser.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/EnvironmentProfileRepository.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/EnvironmentProfileVerifier.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/IEnvironmentProfile.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/IEnvironmentProfileIOStream.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/IEnvironmentProfileParser.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/IEnvironmentProfileRepository.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Repository/IEnvironmentProfileVerifier.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Selection/DefaultEnvironmentProfileSelector.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Selection/EnvironmentSelectionResultTypeEvent.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Selection/IEnvironmentProfileSelector.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Selection/ISlamChecker.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Selection/SlamChecker.cs
+Assets/MetaSDK/Meta/Scripts/Alignment/AlignmentFileFormat.cs
+Assets/MetaSDK/Meta/Scripts/Alignment/AlignmentHandler.cs
+Assets/MetaSDK/Meta/Scripts/Alignment/AssignMaps.cs
+Assets/MetaSDK/Meta/Scripts/Alignment/StereoCameraAlignment.cs
+Assets/MetaSDK/Meta/Scripts/Audio/AudioRandomizer.cs
+Assets/MetaSDK/Meta/Scripts/CalibrationParameters/CalibrationParameterLoader.cs
+Assets/MetaSDK/Meta/Scripts/CalibrationParameters/CalibrationParameterLoaderAdditionalMatrices.cs
+Assets/MetaSDK/Meta/Scripts/CalibrationParameters/CalibrationParameterLoaderInterop.cs
+Assets/MetaSDK/Meta/Scripts/CalibrationParameters/CalibrationParameters.cs
+Assets/MetaSDK/Meta/Scripts/CalibrationParameters/CalibrationProfile.cs
+Assets/MetaSDK/Meta/Scripts/CalibrationParameters/ICalibrationParameterLoader.cs
+Assets/MetaSDK/Meta/Scripts/CalibrationParameters/TestCalibrationParameterLoader.cs
+Assets/MetaSDK/Meta/Scripts/Core/DllReferences.cs
+Assets/MetaSDK/Meta/Scripts/Core/EventHandlers/EventHandlers.cs
+Assets/MetaSDK/Meta/Scripts/Core/EventHandlers/IEventHandlers.cs
+Assets/MetaSDK/Meta/Scripts/Core/IEventReceiver.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaBehaviour/BaseMetaBehaviour.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaBehaviour/MetaBehaviour.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaBehaviour/MetaBehaviourInternal.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaContext/BaseMetaContextBridge.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaContext/IMetaContext.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaContext/IMetaContextInternal.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaContext/MetaContext.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaContext/MetaContextBridge.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaDataStructs.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaDeviceInfo.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaFactory/MetaFactory.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaFactory/MetaFactoryPackage.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaManager/MetaManager.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaSensors.cs
+Assets/MetaSDK/Meta/Scripts/Core/MetaSensorType.cs
+Assets/MetaSDK/Meta/Scripts/Enum/Axis.cs
+Assets/MetaSDK/Meta/Scripts/Enum/DirectionalAxis.cs
+Assets/MetaSDK/Meta/Scripts/Enum/PressState.cs
+Assets/MetaSDK/Meta/Scripts/Enum/UnityInitializationEvent.cs
+Assets/MetaSDK/Meta/Scripts/Enum/VirtualKeyCodes.cs
+Assets/MetaSDK/Meta/Scripts/Events/BoolEvent.cs
+Assets/MetaSDK/Meta/Scripts/Events/ColliderEvent.cs
+Assets/MetaSDK/Meta/Scripts/Events/ColorEvent.cs
+Assets/MetaSDK/Meta/Scripts/Events/IGazeEndEvent.cs
+Assets/MetaSDK/Meta/Scripts/Events/IGazeStartEvent.cs
+Assets/MetaSDK/Meta/Scripts/Events/IPanelClickEventHandler.cs
+Assets/MetaSDK/Meta/Scripts/Events/ITouchEventHandler.cs
+Assets/MetaSDK/Meta/Scripts/Events/MetaInteractionDataEvent.cs
+Assets/MetaSDK/Meta/Scripts/Events/OnNewHand.cs
+Assets/MetaSDK/Meta/Scripts/Events/PointerEventDataEvent.cs
+Assets/MetaSDK/Meta/Scripts/Events/PressStateEvent.cs
+Assets/MetaSDK/Meta/Scripts/Events/Vector2Event.cs
+Assets/MetaSDK/Meta/Scripts/Events/Vector3Event.cs
+Assets/MetaSDK/Meta/Scripts/Extensions/AnimatorExtensions.cs
+Assets/MetaSDK/Meta/Scripts/Extensions/ColorExtensions.cs
+Assets/MetaSDK/Meta/Scripts/Extensions/QuaternionExtensions.cs
+Assets/MetaSDK/Meta/Scripts/Extensions/TransformExtensions.cs
+Assets/MetaSDK/Meta/Scripts/Extensions/Vector2Extensions.cs
+Assets/MetaSDK/Meta/Scripts/Extensions/Vector3Extensions.cs
+Assets/MetaSDK/Meta/Scripts/Gaze.cs
+Assets/MetaSDK/Meta/Scripts/Gizmos/AxisGizmo.cs
+Assets/MetaSDK/Meta/Scripts/HudLock.cs
+Assets/MetaSDK/Meta/Scripts/IAlignmentUpdateListener.cs
+Assets/MetaSDK/Meta/Scripts/MetaAnalytics/MetaSdkAnalytics.cs
+Assets/MetaSDK/Meta/Scripts/MetaBehaviours/MetaLocking.cs
+Assets/MetaSDK/Meta/Scripts/MetaLocalizationSettings.cs
+Assets/MetaSDK/Meta/Scripts/MetaPathVariables.cs
+Assets/MetaSDK/Meta/Scripts/MetaUtils.cs
+Assets/MetaSDK/Meta/Scripts/MetaUtils/MultiRaycast.cs
+Assets/MetaSDK/Meta/Scripts/MonoBehaviourUtilities/IMonoBehaviourProxy.cs
+Assets/MetaSDK/Meta/Scripts/MonoBehaviourUtilities/MonoBehaviourProxy.cs
+Assets/MetaSDK/Meta/Scripts/MonoBehaviourUtilities/PrefabInstantiator.cs
+Assets/MetaSDK/Meta/Scripts/MonoBehaviourUtilities/TemporalHelpAnimationMessageController.cs
+Assets/MetaSDK/Meta/Scripts/OrbitalLock.cs
+Assets/MetaSDK/Meta/Scripts/RecordSensorData.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/DirectMode/MetaDirectMode.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/DirectMode/MetaDirectModeInformation.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/DirectMode/MetaDirectModeInformationDLLReference.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/DirectMode/MetaDirectModeInterop.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/ExtendedMode/MetaExtendedModeController.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/IMetaDisplayModeInformationProvider.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/MetaDisplayMode.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/MetaDisplayModeController.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/MetaDisplayModeInformationProvider.cs
+Assets/MetaSDK/Meta/Scripts/Threads/MonobehaviourThreadedJob.cs
+Assets/MetaSDK/Meta/Scripts/Threads/ThreadedJob.cs
+Assets/MetaSDK/Meta/Scripts/Threads/UnityThreadedJob.cs
+Assets/MetaSDK/Meta/Scripts/Tween/TextMeshTweens.cs
+Assets/MetaSDK/Meta/Scripts/Tween/TransformTweens.cs
+Assets/MetaSDK/Meta/Scripts/Type/Bool3.cs
+Assets/MetaSDK/Meta/Scripts/Type/Tuple.cs
+Assets/MetaSDK/Meta/Scripts/Type/Win32Point.cs
+Assets/MetaSDK/Meta/Scripts/Type/Win32Rect.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/AlignmentProfile.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/AlignmentUserSettings.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/Credentials.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/EventReceivingUserSettings.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/GameObjectUserSettings.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/IUserSettings.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/IUserSettingsDeveloper.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/IUserSettingsMeta.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/IUserSettingsPathHandler.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/TestingPlayerPrefs.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/UsernameUserSettingsPathHandler.cs
+Assets/MetaSDK/Meta/Scripts/UserSettings/UserSettings.cs
+Assets/MetaSDK/Meta/Scripts/Utility/CurveAsset.cs
+Assets/MetaSDK/Meta/Scripts/Utility/MathUtility.cs
+Assets/MetaSDK/Meta/Scripts/Utility/ProceduralMeshUtility.cs
+Assets/MetaSDK/Meta/Scripts/Utility/QuaternionUtility.cs
+Assets/MetaSDK/Meta/Scripts/Utility/UnityWindowHandleUtility.cs
+Assets/MetaSDK/Meta/Scripts/Utility/User32Interop.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/CameraSimulator.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/IWebcamStateChangeListener.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/PreviewWebcam.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/WebcamCommandBuffer.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/WebcamMirrorModes.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/WebcamOffCanvasHandler.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/WebcamPlugin.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/WebcamUnityWindowHandler.cs
+Assets/MetaSDK/MetaExamples/Assets/Scripts/Buttons/AudioListenerVolumeView.cs
+Assets/MetaSDK/MetaExamples/Assets/Scripts/Buttons/CubeButtonEventReaction.cs
+Assets/MetaSDK/MetaExamples/Assets/Scripts/GazeExampleScript.cs
+Assets/RasterMap.cs
+Assets/RotateTowards.cs
+"Assets/Smooth! Orbit Cam/Demo_Scene_Objects/demo_GUI.cs"
+"Assets/Smooth! Orbit Cam/Demo_Scene_Objects/showValues.cs"
+"Assets/Smooth! Orbit Cam/Scripts/SmoothOrbitCam.cs"
+"Assets/Smooth! Orbit Cam/Scripts/SmoothOrbitViewchanger.cs"
+Assets/ToggleLayer.cs
+Assets/ToggleMetaLocking.cs
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
