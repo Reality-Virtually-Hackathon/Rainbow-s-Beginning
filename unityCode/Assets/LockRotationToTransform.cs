@@ -40,7 +40,6 @@ namespace Meta
 
         private void Update()
         {
-            
             if (_lock)
             {
                 UpdateRotation();
