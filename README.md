@@ -13,11 +13,9 @@ For anybody reviewing our code, please send us a Unity account username/email, a
 
 # Software Requirements
 
-Unity 2017.2 BETA 
-
-Unity + Mapbox SDK
-
-Meta 2 SDK
+* Unity 2017.2 BETA 
+* Unity + Mapbox SDK
+* Meta 2 SDK
 
 # Hardware Requirements
 * Arduino Genuino Uno
@@ -27,6 +25,17 @@ Meta 2 SDK
 * 10k Resistor
 * Male/Female Wires
 * Breadboard or Breakout Board
+
+# Libraries, SDK's & 3rd Party Software, API, Developer Tools
+Arduino
+* [DHT Library](https://github.com/adafruit/DHT-sensor-library)
+* [PN352 Library](https://github.com/adafruit/Adafruit-PN532)
+* [Adafruit Sensor Library](https://github.com/adafruit/Adafruit_Sensor)
+
+Unity & A/R
+* Meta 2 SDK
+* Mapbox SDK (with traffic data)
+* Unity 2017.12 BETA 
 
 # Circuit Diagram for IOT Integration
 ![circuitDiagram](https://github.com/Reality-Virtually-Hackathon/Rainbow-s-Beginning/blob/master/images/circuitDiagramIOT.png?raw=true "Circuit Diagram")
