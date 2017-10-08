@@ -1,0 +1,267 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp-Editor.dll
+-unsafe
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityAR/Editor/UnityEditor.AR.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityAR/RuntimeEditor/UnityEngine.AR.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+-r:"C:/Program Files/Unity 2017.2.0b2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2015/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll
+-r:Assets/MetaSDK/Meta/CocoLauncher/Flatbuffers/Plugins/FlatBuffers.dll
+-r:Assets/MetaSDK/Plugins/Managed/DestMath.dll
+-r:Assets/MetaSDK/Plugins/Managed/FullSerializer.dll
+-r:Assets/MetaSDK/Plugins/Managed/MetaAnalytics.dll
+-r:Assets/MetaSDK/Plugins/Managed/MetaDevMode-CSharp.dll
+-r:Assets/MetaSDK/Plugins/Managed/Newtonsoft.Json.dll
+-r:Assets/MetaSDK/Plugins/Managed/SimpleJSON.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@0.0.16/UnityEngine.Advertisements.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@0.0.16/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.17/UnityEngine.Analytics.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.17/Editor/UnityEditor.Analytics.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.18/UnityEngine.Purchasing.dll
+-r:C:/Users/Adam/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.18/Editor/UnityEditor.Purchasing.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_0
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/BboxToGeoCoordinateBoundsConverterTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/BearingFilterTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/CanonicalTileIdTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/CompressionTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/DirectionResourceTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/DirectionsTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/FileSourceTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/ForwardGeocodeResourceTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/GeocoderTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/GeoCoordinateBoundsTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/GeoCoordinateTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/LonLatToGeoCoordinateConverterTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/PolylineToGeoCoordinateListConverterTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/PolylineUtilsTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/ReverseGeocodeResourceTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/TileCoverTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/TileResourceTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/TileTest.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/Utils.cs
+Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/VectorTileTest.cs
+Assets/Mapbox/Unity/Editor/AddMonoBehavioursModifierDrawer.cs
+Assets/Mapbox/Unity/Editor/Build/Mapbox_Android_prebuild_checks.cs
+Assets/Mapbox/Unity/Editor/Build/Mapbox_iOS_build.cs
+Assets/Mapbox/Unity/Editor/ClearMbTilesCache.cs
+Assets/Mapbox/Unity/Editor/FactoryDrawer.cs
+Assets/Mapbox/Unity/Editor/FactoryEditor.cs
+Assets/Mapbox/Unity/Editor/FeatureBehaviourEditor.cs
+Assets/Mapbox/Unity/Editor/FlatSphereTerrainFactoryEditor.cs
+Assets/Mapbox/Unity/Editor/FlatTerrainFactoryEditor.cs
+Assets/Mapbox/Unity/Editor/GeocodeAttributeDrawer.cs
+Assets/Mapbox/Unity/Editor/GeocodeAttributeSearchWindow.cs
+Assets/Mapbox/Unity/Editor/LayerModifierEditor.cs
+Assets/Mapbox/Unity/Editor/LowPolyTerrainFactoryEditor.cs
+Assets/Mapbox/Unity/Editor/MapboxConfigurationWindow.cs
+Assets/Mapbox/Unity/Editor/MapImageFactoryEditor.cs
+Assets/Mapbox/Unity/Editor/MapVisualizerEditor.cs
+Assets/Mapbox/Unity/Editor/MergedModifierStackEditor.cs
+Assets/Mapbox/Unity/Editor/MeshFactoryEditor.cs
+Assets/Mapbox/Unity/Editor/ModifierStackEditor.cs
+Assets/Mapbox/Unity/Editor/NodeEditor/Connection.cs
+Assets/Mapbox/Unity/Editor/NodeEditor/ConnectionPoint.cs
+Assets/Mapbox/Unity/Editor/NodeEditor/EditorZoomArea.cs
+Assets/Mapbox/Unity/Editor/NodeEditor/Node.cs
+Assets/Mapbox/Unity/Editor/NodeEditor/NodeBasedEditor.cs
+Assets/Mapbox/Unity/Editor/ScriptableCreatorWindow.cs
+Assets/Mapbox/Unity/Editor/StyleOptimizedVectorTileFactoryEditor.cs
+Assets/Mapbox/Unity/Editor/StyleSearchAttributeDrawer.cs
+Assets/Mapbox/Unity/Editor/StyleSearchWindow.cs
+Assets/Mapbox/Unity/Editor/TerrainFactoryEditor.cs
+Assets/Mapbox/Unity/Editor/Tests/DuplicateAndroidLibraries.cs.cs
+Assets/Mapbox/Unity/Editor/VectorLayerVisualizerEditor.cs
+Assets/Mapbox/Unity/Editor/VectorTileFactoryEditor.cs
+Assets/MetaSDK/Meta/Editor/Utils/ColorStack.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/Editor/MetaButtonEventBroadcasterCustomInspector.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/Editor/MetaButtonGameObjectEventBroadcasterCustomInspector.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Broadcast/Editor/MetaButtonIndividualEventBroadcasterCustomInspector.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Source/Editor/EditorMetaButtonEventWindow.cs
+Assets/MetaSDK/Meta/EventSystem/Scripts/Buttons/Source/Editor/MetaButtonEventMenuItem.cs
+Assets/MetaSDK/Meta/Hands/HandInput/Scripts/Interactions/Editor/InteractionOrderEditor.cs
+Assets/MetaSDK/Meta/LocalizationEngine/Scripts/Editor/RdfMatrixToPoseCustomInspector.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Configuration/Editor/EnvironmentConfigurationInspector.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Editor/MetaReconstructionInspector.cs
+Assets/MetaSDK/Meta/Reconstruction/Scripts/Utilities/Editor/EnvironmentProfileUtilities.cs
+Assets/MetaSDK/Meta/Scripts/Audio/Editor/AudioRandomizerEditor.cs
+Assets/MetaSDK/Meta/Scripts/Editor/ExposeProperties.cs
+Assets/MetaSDK/Meta/Scripts/Editor/LiveRecompileLock.cs
+Assets/MetaSDK/Meta/Scripts/Editor/MetaAssetPostProcessor.cs
+Assets/MetaSDK/Meta/Scripts/Editor/MetaLocalizationSettingsInspector.cs
+Assets/MetaSDK/Meta/Scripts/Editor/SerializedPropertyValueExtension.cs
+Assets/MetaSDK/Meta/Scripts/Editor/SetupSingleGameWindow.cs
+Assets/MetaSDK/Meta/Scripts/MetaAnalytics/Editor/MetaUnityEditorAnalytics.cs
+Assets/MetaSDK/Meta/Scripts/MetaBehaviours/Editor/MetaLockingInspector.cs
+Assets/MetaSDK/Meta/Scripts/MetaUtils/Editor/UnityMenu.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/DirectMode/Editor/MetaDirectModeBridge.cs
+Assets/MetaSDK/Meta/Scripts/Rendering/DirectMode/Editor/MetaDirectModeMenuItems.cs
+Assets/MetaSDK/Meta/VirtualWebcam/Scripts/Editor/PreviewWebcamInspector.cs
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity 2017.2.0b2\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-sdk:2.0
